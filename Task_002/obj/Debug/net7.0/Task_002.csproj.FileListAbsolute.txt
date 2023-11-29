@@ -1,0 +1,15 @@
+/home/roman/Рабочий стол/C#/lesson4/Task_002/obj/Debug/net7.0/Task_002.csproj.AssemblyReference.cache
+/home/roman/Рабочий стол/C#/lesson4/Task_002/obj/Debug/net7.0/Task_002.GeneratedMSBuildEditorConfig.editorconfig
+/home/roman/Рабочий стол/C#/lesson4/Task_002/obj/Debug/net7.0/Task_002.AssemblyInfoInputs.cache
+/home/roman/Рабочий стол/C#/lesson4/Task_002/obj/Debug/net7.0/Task_002.AssemblyInfo.cs
+/home/roman/Рабочий стол/C#/lesson4/Task_002/obj/Debug/net7.0/Task_002.csproj.CoreCompileInputs.cache
+/home/roman/Рабочий стол/C#/lesson4/Task_002/bin/Debug/net7.0/Task_002
+/home/roman/Рабочий стол/C#/lesson4/Task_002/bin/Debug/net7.0/Task_002.deps.json
+/home/roman/Рабочий стол/C#/lesson4/Task_002/bin/Debug/net7.0/Task_002.runtimeconfig.json
+/home/roman/Рабочий стол/C#/lesson4/Task_002/bin/Debug/net7.0/Task_002.dll
+/home/roman/Рабочий стол/C#/lesson4/Task_002/bin/Debug/net7.0/Task_002.pdb
+/home/roman/Рабочий стол/C#/lesson4/Task_002/obj/Debug/net7.0/Task_002.dll
+/home/roman/Рабочий стол/C#/lesson4/Task_002/obj/Debug/net7.0/refint/Task_002.dll
+/home/roman/Рабочий стол/C#/lesson4/Task_002/obj/Debug/net7.0/Task_002.pdb
+/home/roman/Рабочий стол/C#/lesson4/Task_002/obj/Debug/net7.0/Task_002.genruntimeconfig.cache
+/home/roman/Рабочий стол/C#/lesson4/Task_002/obj/Debug/net7.0/ref/Task_002.dll
