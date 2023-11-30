@@ -28,10 +28,10 @@ namespace Task_001
             return array;
         }
 
-        public static int[][] GetMultiArrayWithRandomValue(int stringCount, int columnCount) {
-            int[][] jaggedArray = new int[stringCount][];
-            for(int i = 0; i < stringCount; i++) {
-                jaggedArray[i] = GetArrayWithRandomValue(columnCount);
+        public static int[][] GetMultiArrayWithRandomValue(int rows, int cols) {
+            int[][] jaggedArray = new int[rows][];
+            for(int i = 0; i < rows; i++) {
+                jaggedArray[i] = GetArrayWithRandomValue(cols);
             }
             return jaggedArray;
         }
@@ -45,7 +45,7 @@ namespace Task_001
         }
 
         public static void PrintMultiArray(int[][] array) {
-            for(int i = 0; i < array.GetLength(0); i++) {
+            for(int i = 0; i < array.Length; i++) {
                 System.Console.WriteLine(PrintArray(array[i]));
             }
         }
