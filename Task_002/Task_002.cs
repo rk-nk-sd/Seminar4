@@ -42,7 +42,7 @@ namespace Task_002
         public static string PrintArray(int[] array) {
             string result = "";
             foreach(int item in array) {
-                result = result + item + " ";
+                result = result + item + "\t";
             }
             return result;
         }
