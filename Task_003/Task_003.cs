@@ -7,12 +7,12 @@ namespace Task_003
 {
     public class Task_003
     {
-        public const int STR = 3;
-        public const int COL = 4;
+        public const int ROWS = 3;
+        public const int COLS = 4;
         public const int MIN = 1;
         public const int MAX = 100;
         public static void Main(string[] args) {
-            int[][] multiArray = GetMultiArrayWithRandomValue(STR, COL);
+            int[][] multiArray = GetMultiArrayWithRandomValue(ROWS, COLS);
 
             System.Console.WriteLine("Оригинальный массив: ");
             PrintMultiArray(multiArray);
@@ -40,11 +40,11 @@ namespace Task_003
         }
 
         public static string PrintArray(int[] array) {
-            string result = "";
+            string result = "[";
             foreach(int item in array) {
                 result = result + item + "\t";
             }
-            return result;
+            return result.Trim() +"]";
         }
 
         public static void PrintMultiArray(int[][] array) {
