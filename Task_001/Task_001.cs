@@ -18,7 +18,6 @@ namespace Task_001
 
             System.Console.WriteLine("Четные элементы изменены на их квадраты: ");
             PrintMultiArray(PowEvenElementMultiArray(multiArray));
-
         }
 
         public static int[] GetArrayWithRandomValue(int size) {
@@ -46,21 +45,23 @@ namespace Task_001
         }
 
         public static void PrintMultiArray(int[][] array) {
-            for(int i = 0; i < array.Length; i++) {
+            for(int i = 0; i < array.GetLength(0); i++) {
                 System.Console.WriteLine(PrintArray(array[i]));
             }
         }
 
         public static int[][] PowEvenElementMultiArray(int[][] array) {
             for(int i = 0; i < array.Length; i++) {
-                array[i] = PowEvenElement(array[i]);
+                if(i % 2 == 0) {
+                    array[i] = PowEvenElement(i, array[i]);
+                }
             }
             return array;
         }
 
-        public static int[] PowEvenElement(int[] array) {
+        public static int[] PowEvenElement(int index, int[] array) {
             for(int i = 0; i < array.Length; i++) {
-                if(array[i] % 2 == 0) {
+                if(i == index) {
                     array[i] *= array[i];
                 }
             }
