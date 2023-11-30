@@ -23,12 +23,12 @@ namespace Task_003
             System.Console.WriteLine(PrintArray(meanArithmeticArray));
         }
 
-        public static int[][] GetMultiArrayWithRandomValue(int stringCount, int columnCount) {
-            int[][] jaggedArray = new int[stringCount][];
-            for(int i = 0; i < stringCount; i++) {
-                jaggedArray[i] = GetArrayWithRandomValue(columnCount);
+        public static int[][] GetMultiArrayWithRandomValue(int rows, int cols) {
+            int[][] twoDimensionalArray = new int[rows][];
+            for(int i = 0; i < rows; i++) {
+                twoDimensionalArray[i] = GetArrayWithRandomValue(cols);
             }
-            return jaggedArray;
+            return twoDimensionalArray;
         }
 
         public static int[] GetArrayWithRandomValue(int size) {

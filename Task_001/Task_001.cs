@@ -29,11 +29,11 @@ namespace Task_001
         }
 
         public static int[][] GetMultiArrayWithRandomValue(int rows, int cols) {
-            int[][] jaggedArray = new int[rows][];
+            int[][] twoDimensionalArray = new int[rows][];
             for(int i = 0; i < rows; i++) {
-                jaggedArray[i] = GetArrayWithRandomValue(cols);
+                twoDimensionalArray[i] = GetArrayWithRandomValue(cols);
             }
-            return jaggedArray;
+            return twoDimensionalArray;
         }
 
         public static string PrintArray(int[] array) {

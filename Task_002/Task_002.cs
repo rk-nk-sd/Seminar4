@@ -7,12 +7,12 @@ namespace Task_002
 {
     public class Task_002
     {
-        public const int STR = 3;
-        public const int COL = 4;
+        public const int ROWS = 3;
+        public const int COLS = 4;
         public const int MIN = 1;
         public const int MAX = 100;
         public static void Main(string[] args) {
-            int[][] multiArray = GetMultiArrayWithRandomValue(STR, COL);
+            int[][] multiArray = GetMultiArrayWithRandomValue(ROWS, COLS);
 
             System.Console.WriteLine("Оригинальный массив: ");
             PrintMultiArray(multiArray);
@@ -23,12 +23,12 @@ namespace Task_002
             System.Console.WriteLine(GetSum(diogonalElements));
         }
 
-        public static int[][] GetMultiArrayWithRandomValue(int stringCount, int columnCount) {
-            int[][] jaggedArray = new int[stringCount][];
-            for(int i = 0; i < stringCount; i++) {
-                jaggedArray[i] = GetArrayWithRandomValue(columnCount);
+        public static int[][] GetMultiArrayWithRandomValue(int rows, int cols) {
+            int[][] twoDimensionalArray = new int[rows][];
+            for(int i = 0; i < rows; i++) {
+                twoDimensionalArray[i] = GetArrayWithRandomValue(cols);
             }
-            return jaggedArray;
+            return twoDimensionalArray;
         }
 
         public static int[] GetArrayWithRandomValue(int size) {
